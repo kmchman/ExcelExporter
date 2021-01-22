@@ -1,0 +1,8 @@
+﻿index,resource_index,ui_name,ui_explanation,price_gold,price_free_seed,price_seed
+int,int,string,string,int,int,int
+401001,10001,ui_product_name_401001,ui_product_explanation_401001,100,10,1
+401002,10002,ui_product_name_401002,ui_product_explanation_401002,200,20,2
+401003,10005,ui_product_name_401003,ui_product_explanation_401003,300,30,3
+401004,10104,ui_product_name_401004,ui_product_explanation_401004,100,10,1
+401005,10101,ui_product_name_401005,ui_product_explanation_401005,200,20,2
+401006,10105,ui_product_name_401006,ui_product_explanation_401006,300,30,3

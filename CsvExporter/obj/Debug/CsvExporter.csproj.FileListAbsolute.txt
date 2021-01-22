@@ -1,0 +1,13 @@
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\CsvExporter.exe.config
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\CsvExporter.exe
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\CsvExporter.pdb
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\EPPlus.dll
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\EPPlus.xml
+C:\Dev\ExcelExporter\CsvExporter\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Dev\ExcelExporter\CsvExporter\obj\Debug\CsvExporter.csprojAssemblyReference.cache
+C:\Dev\ExcelExporter\CsvExporter\obj\Debug\CsvExporter.csproj.CoreCompileInputs.cache
+C:\Dev\ExcelExporter\CsvExporter\obj\Debug\CsvExporter.csproj.CopyComplete
+C:\Dev\ExcelExporter\CsvExporter\obj\Debug\CsvExporter.exe
+C:\Dev\ExcelExporter\CsvExporter\obj\Debug\CsvExporter.pdb

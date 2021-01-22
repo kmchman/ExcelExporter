@@ -1,0 +1,15 @@
+﻿index,resource_index,ui_name,ui_explanation,open_level,build_max_level,build_levelup_price,map_x,map_y,map_max_x,map_max_y,making_time,make_object_index_min,make_object_index_max,price_gold,price_free_seed,price_seed
+int,int,text,text,int,int,int,int,int,int,int,int,text,text,int,int,int
+201001,0,ui_structure_name_201001,東海水と白頭山が乾いて磨耗よう<br>
+神がボウ下賜ウリナラマンセー<br>
+ムクゲ三千里華麗強酸<br>
+の人の長さの保全長谷川,1,2,0,2,2,6,6,100,301000,301999,100,10,1
+201002,14,ui_structure_name_201002,南山の上にその松チョウザメをかけたように<br>
+風霜ブルビョンハムは、私たちの気象一世<br>
+ムクゲ三千里華麗強酸<br>
+の人の長さの保全長谷川,1,2,0,4,4,8,8,100,311000,311999,100,10,1
+201003,16,ui_structure_name_201003,ui_structure_explanation_201003,1,2,0,4,4,12,12,150,401001,401001,200,20,2
+201004,171,ui_structure_name_201004,この気象とが好きで忠誠を尽くし<br>
+苦しいやジュルゴオナ国愛長谷川<br>
+ムクゲ三千里華麗強酸<br>
+の人の長さの保全長谷川,1,2,0,4,4,8,8,200,401006,401006,300,30,3
