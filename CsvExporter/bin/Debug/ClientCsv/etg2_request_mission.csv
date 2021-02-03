@@ -1,0 +1,6 @@
+﻿index,req_mission_level,req_mission_min,req_mission_max,req_mission_rate,req_mission_gold,req_mission_exp
+int,int,int,int,int,int,int
+401001,1,1,2,40,100,10
+401002,1,2,3,30,200,20
+401003,5,2,3,20,300,30
+401004,10,3,4,10,400,40

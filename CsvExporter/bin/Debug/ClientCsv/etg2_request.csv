@@ -1,0 +1,6 @@
+﻿index,req_diff,req_obj_rate,req_min,req_max,req_reward_rate,req_select_rate
+int,int,int,int,int,int,int
+1310000,1,100,1,2,100,45
+1310001,2,110,2,4,110,35
+1310002,3,120,4,6,120,20
+1320000,4,130,3,4,100,5

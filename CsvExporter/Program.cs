@@ -90,8 +90,17 @@ namespace CsvExporter
 
                             }
                             worksheet.DeleteRow(3);
-                            //Path.Combine(csvFolderPath, worksheet.Name)
+
+                            //for (int i = 0; i < worksheet.Dimension.End.Row; i++)
+                            //{
+                            //    for (int j = 0; j < worksheet.Dimension.End.Column; j++)
+                            //    {
+                            //        worksheet.Cells[i + 1, j + 1].Value = string.Format($"\"{worksheet.Cells[i + 1, j + 1].Text}\"");
+                            //    }
+                            //}
                             
+                            //Path.Combine(csvFolderPath, worksheet.Name)
+
                             FileInfo dstFile = new FileInfo(Path.Combine(targetType == TargetType.Server ? serverFolderPath : clientFolderPath, $"{worksheet.Name}.csv"));
                             worksheet.Cells[1, 1, worksheet.Dimension.End.Row, worksheet.Dimension.End.Column].SaveToText(dstFile, format);
                         }
