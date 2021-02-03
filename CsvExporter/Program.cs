@@ -114,9 +114,40 @@ namespace CsvExporter
     {
         static void Main(string[] args)
         {
+            //WriteCsv2();
+            ReadCsv();
+        }
+
+        static void WriteCsv1()
+        {
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
-            ExportToCsv exportClient = new ExportToCsv( ExportToCsv.TargetType.Client);
+            ExportToCsv exportClient = new ExportToCsv(ExportToCsv.TargetType.Client);
             ExportToCsv exportServer = new ExportToCsv(ExportToCsv.TargetType.Server);
+        }
+
+        static void WriteCsv2()
+        {
+            var writer = new CsvWriter();
+            writer.AddRow(new string[] { "a", "b", "c" });
+            writer.AddRow(new List<string> { "1", "2", "3" });
+            string csv = writer.Write();
+            File.WriteAllText("file.csv", csv);
+        }
+
+        static void ReadCsv()
+        {
+            var reader = new CsvReader();
+            string csv = File.ReadAllText("file.csv");
+            foreach (var row in reader.Read(csv))
+            {
+                // so something with the whole row
+
+                foreach (var cell in row)
+                {
+                    Console.WriteLine("tet");
+                    // do something with the cell
+                }
+            }
         }
     }
 }
